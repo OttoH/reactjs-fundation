@@ -1,0 +1,25 @@
+{
+  "name": "reactjs-basic-justangon",
+  "version": "1.0.0",
+  "description": "basic reactjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "browserify": {
+    "transform": ["babelify"]
+  },
+  "devDependencies": {
+    "babel": "^5.8.19",
+    "babelify": "^6.1.3",
+    "browserify": "^11.0.1",
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.3",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
+  }
+}
